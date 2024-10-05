@@ -1,0 +1,31 @@
+body{
+    margin: 0;                  
+    padding: 0;                   
+    background-color: lightskyblue; 
+    min-height: 100vh;   
+}
+
+main {
+    background-color: white;
+    width: 80%;                     /* Ajusta al 80% del ancho de la ventana */
+    max-width: 3840px;
+    margin: 0 auto;               /* Máximo ancho, útil para pantallas grandes */
+    height: auto;                   /* Ajusta la altura automáticamente al contenido */
+    padding: 20px;                  /* Añade espacio interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade sombra para un toque visual */
+    border-radius: 8px;             /* Bordes redondeados */
+}
+
+#caja_padre{
+    background-color: blue;
+    width: 80%;                     /* Ajusta al 80% del ancho de la ventana */
+    max-width: 3840px;
+    margin: 0 auto;               /* Máximo ancho, útil para pantallas grandes */
+    height: auto; 
+
+}
+
+
+
+
+
