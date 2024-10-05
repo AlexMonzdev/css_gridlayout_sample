@@ -22,18 +22,29 @@ main {
 #caja_padre{
     display: grid;
     gap: 1rem;
-    grid-auto-rows: 40rem;
+    grid-auto-rows: 30rem;
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem),1fr));
 }
 
 .caja{
-    margin: 1rem auto; 
+    display:grid;
+    grid-auto-rows: auto;
+    margin: 2rem auto; 
     background-color: rgb(154, 241, 208);
     border: 2px solid black;
     border-radius: 8px;   
-    width: 20rem;
-    height: 35rem;
+    width: 80%;
+    height: 25rem;
 }
+
+img{
+    margin: 1.5rem auto;
+    padding: 2;
+    height: 70%;
+    width: 70%;
+}
+
+
 
 
 
