@@ -5,25 +5,35 @@ body{
     min-height: 100vh;   
 }
 
+h2{
+    margin: 1rem auto;
+    padding: 2rem;
+}
+
 main {
     background-color: white;
-    width: 80%;                     /* Ajusta al 80% del ancho de la ventana */
-    max-width: 3840px;
-    margin: 0 auto;               /* Máximo ancho, útil para pantallas grandes */
-    height: auto;                   /* Ajusta la altura automáticamente al contenido */
-    padding: 20px;                  /* Añade espacio interno */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade sombra para un toque visual */
-    border-radius: 8px;             /* Bordes redondeados */
+    width: 90%;   
+    margin: 0 auto;                   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    min-height: 100vh;  
 }
 
 #caja_padre{
-    background-color: blue;
-    width: 80%;                     /* Ajusta al 80% del ancho de la ventana */
-    max-width: 3840px;
-    margin: 0 auto;               /* Máximo ancho, útil para pantallas grandes */
-    height: auto; 
-
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr;
 }
+
+.caja{
+    margin: 1rem auto; 
+    background-color: rgb(154, 241, 208);
+    border: 2px solid black;
+    border-radius: 8px;   
+    width: 15rem;
+    height: 25rem;
+}
+
 
 
 
